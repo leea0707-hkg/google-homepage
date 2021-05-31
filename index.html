@@ -14,25 +14,47 @@
         }
         .searchbox{
             position: absolute;
-            top:40%;
+            top:43%;
             left: 50%;
-            transform: translate(-50%, 150%);
+            transform: translate(-50%, 0%);
         }
         .submit{
             position: absolute;
-            top: 52%;
+            top: 49%;
             left: 50%;
             transform: translate(-50%, 0%);
+            border-radius: 10%;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+        }
+        li{
+            float:right;
+        }
+        li a{
+            display: block;
+            font-size: 12px;
+            color: rgb(104, 100, 100);
+            padding: 15px 10px;
         }
     </style>
     <head>
 
     </head>
     <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="https://mail.google.com/">Gmail</a></li>
+                <li><a href="https://www.google.com.hk/imghp?hl=en&ogbl">Images</a></li>
+            </ul>
+        </div>
         <div class="basic">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
             <input class="searchbox"type="text" placeholder="Search">
-            <button class="submit" type="button">Submit</button>
+            <button class="submit" type="button">Google Search</button>
         </div>
 
     </body>
